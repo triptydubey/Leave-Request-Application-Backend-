@@ -1,0 +1,6 @@
+applications:
+- name: LeaveApplication
+  path: target/LeaveApplication-0.0.1-SNAPSHOT.war
+  buildpack: java_buildpack
+  services:
+    - hanadbschema
